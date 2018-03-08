@@ -326,7 +326,7 @@
         color="blue"
         class="see_more"
         
-        >See more</v-btn>
+        >See moree</v-btn>
       </v-flex>
     </v-layout>
      </v-container>
