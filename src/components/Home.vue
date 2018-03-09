@@ -10,13 +10,24 @@
           </v-layout>
           </v-parallax>
 
+          <hr class="divider1"></hr>
+
+         
+      <div 
+          class="Why_us">
+              <h1 class="h1">Why Us</h1>
+          </div>
+         
+
     <v-layout row wrap>
+      
 
 <!--1-->
 <v-layout row>
         <v-flex xs12 align-end flexbox pt-4>
         
           <div class="parentContainer">
+              
             
             <v-card height="300px" width="400px">
               <div class="quote">
@@ -57,7 +68,6 @@
         <v-flex xs12 align-end flexbox pt-4>
 
           <div class="parentContainer">
-               <!-- <h1 class="text-xs-center" center pt-5>Why us?</h1> -->
             
             <v-card height="300px" width="400px">
               <div class="quote">
@@ -129,6 +139,8 @@
 </v-layout>
 </v-layout>
 
+<hr class="divider1"></hr>
+
 
 <!-- What We Provide -->
 
@@ -140,7 +152,7 @@
     height="530px">
     
     <v-card-text class="what_we">
-      <h1 class="text-xs-center">What We Provide</h1>
+      <h1 class="h3">What We Provide</h1>
       <v-flex>
       <p class="text-xs-center">Lorem ipsum dolor sit amet, 
         consectetur adipisicing elit. 
@@ -201,8 +213,14 @@
    
 </v-layout>
 
+<hr class="divider1"></hr>
+
 <!-- second cards -->
 <!-- 4 -->
+<div 
+          class="Customer_reviews">
+              <h1 class="h2">Customer Reviews</h1>
+          </div>
 <v-layout row wrap>
 <v-layout row>
         <v-flex xs12 align-end flexbox pt-4>
@@ -318,6 +336,7 @@
 </v-layout>
 </v-layout>
 
+
 <!-- see more 2 -->
 <v-layout column pt-6>
       <v-flex text-xs-center pt-4 >
@@ -325,11 +344,15 @@
         depressed 
         color="blue"
         class="see_more"
+        large
         
-        >See moree</v-btn>
+        >See more</v-btn>
       </v-flex>
     </v-layout>
      </v-container>
+
+<hr class="divider1"></hr>
+     
 
 
      <!-- footer -->
@@ -346,7 +369,7 @@
         
       </v-btn>
       <v-flex xs12 py-3 text-xs-center white--text>
-        &copy;2018 — <strong>Footer</strong>
+        &copy;2018 — <strong>Contact Us</strong>
       </v-flex>
     </v-layout>
   </v-footer>
@@ -369,9 +392,6 @@ export default {
 
 
 <style>
-.what_we{
-  padding: 120px 70px 70px 70px;
-} 
 
 .see_more1{
   padding:70px;
@@ -381,7 +401,7 @@ export default {
 .parentContainer{
   height: 400px;
   width: 430px;
-  padding-top:25px;
+  padding-top:50px;
   
   
   
@@ -454,6 +474,39 @@ p{
   border-radius: 50%!important;
   z-index: 999;
 }
+/* .Why_us{
+   padding:60px 0px 0px 550px;
+ 
+} */
+.Why_us .h1{
+  font-size: 28px;
+  padding-left: 540px;
+  padding-top: 35px;
+  
+}
 
+.Customer_reviews .h2{
+
+  font-size: 28px;
+  padding-left: 470px;
+  padding-top: 35px;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+}
+
+.what_we{
+  padding: 120px 70px 70px 70px;
+} 
+
+.what_we .h3{
+  padding-left:420px;
+  font-size:28px;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.divider1{
+  margin-top: 50px;
+  border-top: 3px double #8c8b8b;
+}
 </style>
 
