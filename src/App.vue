@@ -56,7 +56,7 @@
 
     </v-navigation-drawer>
    
-   <main>
+   <main style="width:100%">
      <router-view></router-view>
    </main>
    

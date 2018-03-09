@@ -1,7 +1,7 @@
 <template>
   <v-app>
 
-      <v-container fluid class="main">
+      <v-container fluid >
           <!-- image -->
           <v-parallax
           src="/static/doc-images/prof.jpg">
@@ -10,7 +10,7 @@
           </v-layout>
           </v-parallax>
 
-          <hr class="divider1"></hr>
+          <hr class="divider1">
 
          
       <div 
@@ -386,9 +386,6 @@ export default {
   }
 }
 </script>
-
-
-
 
 
 <style>
